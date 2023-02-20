@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+body {
+    background-color:cornsilk;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+nav ul {
+    background-color: black;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    color: white;
+
+    align-items: center;
+
+}
+
+nav ul li {
+    padding: 0 12px;
+
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('/bg.jpg');
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myprogressbar {
+    width: 80vw;
+    cursor:pointer;
+
+
+}
+
+.songitem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+font-weight: bolder;
+    color:black;
+    margin: 12px 0;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 32px;
+    }
+   
+.songitem img {
+    width:43px;
+    margin:0 23px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin:0 23px;
+    font-weight: bolder;
+    
+}
+.timestamp i{
+    cursor:pointer;
+
+}
+.songitemcont{
+    margin-top: 74px;
+}
+.songinfo{
+    position: absolute;
+    left:10vw;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.songinfo  img{
+    opacity: 0;
+    transition: opacity 0.4s  ease-in;
+    
+
+}
